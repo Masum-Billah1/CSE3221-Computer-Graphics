@@ -2,7 +2,6 @@
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
-
     int flag_x1 =100;
     int flag_y1 =flag_x1;
     int times = 20;
