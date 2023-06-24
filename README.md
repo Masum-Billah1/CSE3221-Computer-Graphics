@@ -4,7 +4,7 @@
 <b>Translation: </b> x'=x+tx, y'=y+ty<br>
 <b>Scalling: </b> x'=x*sx, y'=y*sy
 <h3>Bresenham line drawing</h3>
-step1: Calculate dx,dy; dx = x<sub>2</sub>sub-x1, dy = y2-y1
-step2: decision parameter p = 2dy - dx
-step3:  case1. p<0 => xi+1 = xi+1, yi+1 = yi, pk+1 = pk+2dy;
-	case2. p>=0 => xi+1 = xi+1, yi+1 = yi, pk+1 = pk+2dy-2dx;
+<b>step1: </b>Calculate dx,dy; dx = x<sub>2</sub>-x<sub>1</sub>, dy = y<sub>2</sub>-y<sub>1</sub><br>
+<b>step2: </b>: decision parameter p = 2*dy - dx<br>
+<b>step3: </b>  case1. p<0 => x<sub>i</sub>+1 = x<sub>i</sub>+1, y<sub>i</sub>+1 = y<sub>i</sub>, p<sub>k</sub>+1 = p<sub>k</sub>+2dy;
+		case2. p>=0 => x<sub>i</sub>+1 = x<sub>i</sub>+1, y<sub>i</sub>+1 = y<sub>i</sub>, p<sub>k</sub>+1 = p<sub>k</sub>+2dy-2dx;
