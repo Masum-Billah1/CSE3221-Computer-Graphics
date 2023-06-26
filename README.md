@@ -14,5 +14,5 @@
 <b>step2: </b> x<sub>k+1</sub> = x<sub>k</sub>+1<br>
 &emsp;Case1:p<sub>k</sub><0<br>
 &emsp;&emsp;y<sub>k+1</sub> = y<sub>k</sub><br>
-&emsp;&emsp;x<sub>k+1</sub> = x<sub>k</sub>+1<br>
+&emsp;&emsp;p<sub>k+1</sub> = p<sub>k</sub>-2x<sub>k+1</sub>+1<br>
 &emsp;Case2
