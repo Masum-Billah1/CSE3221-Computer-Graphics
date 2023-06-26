@@ -10,16 +10,16 @@
 &emsp;case1. p<0 => x<sub>i</sub>+1 = x<sub>i</sub>+1, y<sub>i</sub>+1 = y<sub>i</sub>, p<sub>k</sub>+1 = p<sub>k</sub>+2dy;<br>
 &emsp;case2. p>=0 => x<sub>i</sub>+1 = x<sub>i</sub>+1, y<sub>i</sub>+1 = y<sub>i</sub>, p<sub>k</sub>+1 = p<sub>k</sub>+2dy-2dx;
 <h3>Midpoint circle drawing</h3>
-<b>step1: </b> x<sub>0</sub> = 0, y<sub>0</sub> = r, p<sub>0</sub> = 1.25-r<br>
-<b>step2: </b> x<sub>k+1</sub> = x<sub>k</sub>+1<br>
+<b>step1: </b>x<sub>0</sub> = 0, y<sub>0</sub> = r, p<sub>0</sub> = 1.25 - r<br>
+<b>step2: </b>x<sub>k+1</sub> = x<sub>k</sub> + 1<br>
 &emsp;Case1: p<sub>k</sub> < 0<br>
-&emsp;&emsp;y<sub>k+1</sub> = y<sub>k</sub><br>
-&emsp;&emsp;p<sub>k+1</sub> = p<sub>k</sub>+2x<sub>k+1</sub> + 1<br>
+&emsp;&emsp;y<sub>k + 1</sub> = y<sub>k</sub><br>
+&emsp;&emsp;p<sub>k + 1</sub> = p<sub>k</sub>+2x<sub>k + 1</sub> + 1<br>
 &emsp;Case2: p<sub>k</sub> >= 0<br>
-&emsp;&emsp;y<sub>k+1</sub> = y<sub>k</sub> - 1<br>
-&emsp;&emsp;p<sub>k+1</sub> = p<sub>k</sub>-2y<sub>k+1</sub>+2x<sub>k+1</sub>+1<br>
+&emsp;&emsp;y<sub>k + 1</sub> = y<sub>k</sub> - 1<br>
+&emsp;&emsp;p<sub>k + 1</sub> = p<sub>k</sub>-2y<sub>k + 1</sub> + 2x<sub>k + 1</sub> + 1<br>
 <b>step3: </b>Center Coordinate: (x<sub>0</sub>, y<sub>0</sub>)<br>
-x<sub>plot</sub> = x+x<sub>0</sub><br>
-y<sub>plot</sub> = y+y<sub>0</sub><br>
+x<sub>plot</sub> = x + x<sub>0</sub><br>
+y<sub>plot</sub> = y + y<sub>0</sub><br>
 <b>step4: </b>if(x<sub>plot</sub> > y<sub>plot</sub>) => stop<br>
 <b>step5: </b>Generate all the points using 8 way symmetry property of circle.
