@@ -21,5 +21,5 @@
 <b>step3: </b>Center Coordinate: (x<sub>0</sub>, y<sub>0</sub>)<br>
 x<sub>plot</sub> = x+x<sub>0</sub><br>
 y<sub>plot</sub> = y+y<sub>0</sub><br>
-<b>step4: </b>if(x<sub>plot</sub> > y<sub>plot</sub>) => stop
-<b>step4: </b>Generate all the points using 8 way symmetry property of circle.
+<b>step4: </b>if(x<sub>plot</sub> > y<sub>plot</sub>) => stop<br>
+<b>step5: </b>Generate all the points using 8 way symmetry property of circle.
