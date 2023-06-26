@@ -15,6 +15,6 @@
 &emsp;Case1: p<sub>k</sub> < 0<br>
 &emsp;&emsp;y<sub>k+1</sub> = y<sub>k</sub><br>
 &emsp;&emsp;p<sub>k+1</sub> = p<sub>k</sub>+2x<sub>k+1</sub> + 1<br>
-&emsp;Case2: p<sub>k >= </sub><0<br>
+&emsp;Case2: p<sub>k</sub> >= 0<br>
 &emsp;&emsp;y<sub>k+1</sub> = y<sub>k</sub> - 1<br>
 &emsp;&emsp;p<sub>k+1</sub> = p<sub>k</sub>-2y<sub>k+1</sub>+2x<sub>k+1</sub>+1<br>
