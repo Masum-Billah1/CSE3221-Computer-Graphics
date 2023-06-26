@@ -6,5 +6,6 @@
 <h3>Bresenham line drawing</h3>
 <b>step1: </b>Calculate dx,dy; dx = x<sub>2</sub>-x<sub>1</sub>, dy = y<sub>2</sub>-y<sub>1</sub><br>
 <b>step2: </b> decision parameter p = 2*dy - dx<br>
-<b>step3: </b><br>  case1. p<0 => x<sub>i</sub>+1 = x<sub>i</sub>+1, y<sub>i</sub>+1 = y<sub>i</sub>, p<sub>k</sub>+1 = p<sub>k</sub>+2dy;<br>
-		case2. p>=0 => x<sub>i</sub>+1 = x<sub>i</sub>+1, y<sub>i</sub>+1 = y<sub>i</sub>, p<sub>k</sub>+1 = p<sub>k</sub>+2dy-2dx;
+<b>step3: </b><br>  
+&emsp;case1. p<0 => x<sub>i</sub>+1 = x<sub>i</sub>+1, y<sub>i</sub>+1 = y<sub>i</sub>, p<sub>k</sub>+1 = p<sub>k</sub>+2dy;<br>
+&emsp;case2. p>=0 => x<sub>i</sub>+1 = x<sub>i</sub>+1, y<sub>i</sub>+1 = y<sub>i</sub>, p<sub>k</sub>+1 = p<sub>k</sub>+2dy-2dx;
