@@ -23,5 +23,5 @@
 &emsp;y<sub>plot</sub> = y + y<sub>0</sub><br>
 <b>step4: </b>if(x<sub>plot</sub> > y<sub>plot</sub>) => stop<br>
 <b>step5: </b>Generate all the points using 8 way symmetry property of circle.<br>
-Ref.:![image](https://github.com/Masum-Billah1/CSE3221-Computer-Graphics/assets/53857306/07d945d9-c752-480b-899a-1125eb36cf32)
+<b>Ref.:</b>(https://github.com/Masum-Billah1/CSE3221-Computer-Graphics/assets/53857306/07d945d9-c752-480b-899a-1125eb36cf32)
 
