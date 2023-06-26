@@ -17,7 +17,7 @@
 &emsp;&emsp;p<sub>k+1</sub> = p<sub>k</sub>+2x<sub>k+1</sub> + 1<br>
 &emsp;Case2: p<sub>k</sub> >= 0<br>
 &emsp;&emsp;y<sub>k+1</sub> = y<sub>k</sub> - 2<br>
-&emsp;&emsp;p<sub>k+1</sub> = p<sub>k</sub>-2y<sub>k+1</sub> + 2x<sub>k+1</sub> + 1<br>
+&emsp;&emsp;p<sub>k+1</sub> = p<sub>k</sub> - 2y<sub>k+1</sub> + 2x<sub>k+1</sub> + 1<br>
 <b>step3: </b>Center Coordinate: (x<sub>0</sub>, y<sub>0</sub>)<br>
 x<sub>plot</sub> = x + x<sub>0</sub><br>
 y<sub>plot</sub> = y + y<sub>0</sub><br>
