@@ -37,7 +37,7 @@
 <br><br><b>Technique:</b><br>
 1. first coordinate condition -> first coordinate calculation.<br>
 2. condition x axis -> calculation of y axix must be performed first and vice versa for  y axix condition<br>
-&emsp; a) subtraction's first value would be xmax or xmin and second value would be x axix value and vice versa for y axix condition<br>
+&emsp; a) subtraction's first value would be xmax or xmin and second value would be x axix value and vice versa<br>
 &emsp; b) slop is multiplied for x axis condition and division should be performed for y axis.<br>
 &emsp; c) addition is performed.<br>
 2. condition x axis -> calculation of x axix is performed lastly and vice versa. i.e x = xmax or xmin<br>
