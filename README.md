@@ -31,10 +31,10 @@ Step2 : Reduce the outside region by the following 8 terms and conditions:<br>
 &emsp;&emsp; y<sub>1</sub> = y<sub>1</sub>+(xmax-x<sub>1</sub>)*m=> multiply with slop<br>
 &emsp;&emsp; x<sub>1</sub> = xmax<br>
 &emsp;if(y1>ymax)
-&emsp;&emsp; x<sub>1</sub> = x<sub>1</sub>+(ymax-y<sub>1</sub>)/m<br>=> divide by slop<br>
+&emsp;&emsp; x<sub>1</sub> = x<sub>1</sub>+(ymax-y<sub>1</sub>)/m=> divide by slop<br>
 &emsp;&emsp; y<sub>1</sub> = ymax<br>
 ....................Thus 8 conditions sould be performed.
-Technique:<br>
+<br><br>Technique:<br>
 1. first coordinate condition -> first coordinate calculation.<br>
 2. condition x axis -> calculation of y axix must be performed first and vice versa for  y axix condition<br>
 &emsp; a) subtraction's first value would be xmax or xmin and second value would be x axix value and vice versa for y axix condition<br>
