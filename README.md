@@ -41,3 +41,4 @@
 &emsp; b) slop is multiplied for x axis condition and division should be performed for y axis.<br>
 &emsp; c) addition is performed.<br>
 2. condition y axis -> calculation of x axix is performed lastly. i.e x = xmax or xmin<br>
+<b>Ref.:(geeksforgeeks) </b>https://github.com/Masum-Billah1/CSE3221-Computer-Graphics/assets/53857306/e606504d-7abe-4866-a891-171c9fe645e0
