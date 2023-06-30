@@ -24,4 +24,20 @@
 <b>step4: </b>if(x<sub>plot</sub> > y<sub>plot</sub>) => stop<br>
 <b>step5: </b>Generate all the points using 8 way symmetry property of circle.<br>
 <b>Ref.: </b>https://github.com/Masum-Billah1/CSE3221-Computer-Graphics/assets/53857306/07d945d9-c752-480b-899a-1125eb36cf32
-
+<h3>Cohen_Sutherland_Line_Clipping_Algorithm</h3>
+Step1 : Calculate the slop m = (y<sub>2</sub>-y<sub>1</sub>)/(x<sub>2</sub>-x<sub>1</sub>)<br>
+Step2 : Reduce the outside region by the following 8 terms and conditions:<br>
+&emsp;if(x<sub>1</sub>>xmax)<br> 
+&emsp;&emsp; y<sub>1</sub> = y<sub>1</sub>+(xmax-x<sub>1</sub>)*m=> multiply with slop<br>
+&emsp;&emsp; x<sub>1</sub> = xmax<br>
+&emsp;if(y1>ymax)
+&emsp;&emsp; x<sub>1</sub> = x<sub>1</sub>+(ymax-y<sub>1</sub>)/m<br>=> divide by slop<br>
+&emsp;&emsp; y<sub>1</sub> = ymax<br>
+....................Thus 8 conditions sould be performed.
+Technique:<br>
+1. first coordinate condition -> first coordinate calculation.<br>
+2. condition x axis -> calculation of y axix must be performed first and vice versa for  y axix condition<br>
+&emsp; a) subtraction's first value would be xmax or xmin and second value would be x axix value and vice versa for y axix condition<br>
+&emsp; b) slop is multiplied for x axis condition and division should be performed for y axis.<br>
+&emsp; c) addition is performed.<br>
+2. condition y axis -> calculation of x axix is performed lastly. i.e x = xmax or xmin<br>
