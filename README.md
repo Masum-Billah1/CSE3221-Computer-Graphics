@@ -45,4 +45,4 @@
 <h3>Polygon Clipping</h3>
 <b>Step1: </b>Implement Cohen Sutherland Line Clipping Algorithm for each line.<br>
 <b>Step2: </b>Take the clipping points.<br>
-<b>Step3: <b>Connect the point using line if(x1==x2||y1==y2)</b>
+<b>Step3: </b>Connect the point using line if(x1==x2||y1==y2)
