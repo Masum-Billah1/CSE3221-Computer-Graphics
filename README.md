@@ -42,3 +42,7 @@
 &emsp; c) addition is performed.<br>
 2. condition x axis -> calculation of x axix is performed lastly and vice versa. i.e x = xmax or xmin<br>
 <b>Ref.(geeksforgeeks): </b>https://github.com/Masum-Billah1/CSE3221-Computer-Graphics/assets/53857306/e606504d-7abe-4866-a891-171c9fe645e0
+<h3>Polygon Clipping</h3>
+<b>Step1:</b>Implement Cohen Sutherland Line Clipping Algorithm for each line.<br>
+<b>Step2:</b>Take the clipping points.<br>
+<b>Step3:<b>Connect the point using line if(x1==x2||y1==y2)</b>
