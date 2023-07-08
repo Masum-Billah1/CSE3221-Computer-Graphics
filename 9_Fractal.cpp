@@ -5,7 +5,7 @@ void koch(int it,int x1,int y1,int x2,int y2){
     int x3,y3,x4,y4,x5,y5;
     int dx,dy;
     if(it==0){
-        line(x1,y1,x2,y2);
+        line(x1,y1,x2,y2); 
     }
     else{
         dx = (x2-x1)/3;
