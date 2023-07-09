@@ -3,7 +3,7 @@
 <h3>Translation & Scalling</h3>
 <b>Translation: </b> x'=x+tx, y'=y+ty<br>
 <b>Scalling: </b> x'=x*sx, y'=y*sy<br>
-<b>Rotation: <b>xr = x1+(x2-x1)cosθ - (y2-y2)sinθ, yr = y1+(x2-x1)cosθ - (y2-y2)sinθ,
+<b>Rotation: </b>b>xr = x1+(x2-x1)cosθ - (y2-y2)sinθ, yr = y1+(x2-x1)sinθ - (y2-y2)cosθ,
 <h3>Bresenham line drawing</h3>
 <b>step1: </b>Calculate dx,dy; dx = x<sub>2</sub>-x<sub>1</sub>, dy = y<sub>2</sub>-y<sub>1</sub><br>
 <b>step2: </b> decision parameter p = 2*dy - dx<br>
