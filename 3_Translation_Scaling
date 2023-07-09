@@ -25,6 +25,17 @@ void scalling(float x1, float y1,float x2,float y2){
     line(x1,y1,x2,y2);
 
 }
+void rotation(float x1, float y1,float x2,float y2){
+    cout <<"Enter Angle : ";
+    float angle,xr,yr;
+    cin >> angle;
+    getchar();
+    angle = M_PI*angle/180;
+    xr = x1+(x2-x1)*cos(angle) - (y2-y1)*sin(angle);
+    yr = y1+(x2-x1)*sin(angle) + (y2-y1)*cos(angle);
+    setcolor(GREEN);
+    line(x1,y1,xr,yr);
+}
 
 int main(){
     int gd,gm;
@@ -39,7 +50,7 @@ int main(){
     setcolor(CYAN);
     line(x1,y1,x2,y2);
 
-    cout << "Press T for translation/S for scaling"<<endl;
+    cout << "Press T for translation/S for scaling/R for rotation"<<endl;
     char ch;
     cin >> ch;
     getchar();
@@ -49,6 +60,8 @@ int main(){
 
     else if(ch=='S')
         scalling(x1,y1,x2,y2);
+    else
+        rotation(x1,y1,x2,y2);
 
     getchar();
 }
